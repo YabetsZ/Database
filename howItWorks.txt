@@ -1,0 +1,37 @@
+git status: to know what's up with your newly created repo.
+git add . :  is used to stage all changes in the current directory and its subdirectories for the next commit. 
+            The . tells Git to stage all files in the current directory and its subdirectories.
+git status
+git commit -m "message" -m "I am adding some stuffs":
+         is used to commit changes to the repository with a message. The -m option is used to specify the commit message. 
+         In this case, the commit message is “message” and “I am adding some stuffs”.
+git push:  is used to upload local repository content to a remote repository. It is used to push the changes 
+            you have made in your local repository to the remote repository on GitHub.
+
+To share a GitHub repository, you can follow these steps:
+
+    1.Go to the repository you want to share.
+    2.Click on the “Settings” button.
+    3.Scroll down to the “Danger Zone” section and click on “Manage access”.
+    4.Click on the “Invite teams or people” button.
+    5.Enter the username or email address of the person you want to share the repository with.
+    6.Choose the permission level you want to give them.
+    7.Click on the “Add” button.
+    8.The person you invited will receive an email invitation to join your repository.
+
+
+If you have multiple C++ files in the same directory and you compile them using the g++ command, 
+the default name of the compiled program will be a.exe. If you want to specify a different name 
+for the compiled program, you can use the -o option followed by the name you want to use. 
+For example, if you want to compile a file named main.cpp and name the compiled program myprogram.exe, 
+you would type: g++ main.cpp -o myprogram.exe.
+
+
+To run a C++ file on Git Bash, you can follow these steps:
+
+    1.Open Git Bash.
+    2.Navigate to the directory where your C++ file is located using the cd command.
+    3.Compile your C++ file using the g++ command followed by the name of your C++ file. For example, if your file is named main.cpp, you would type g++ main.cpp.
+    4.Run your compiled program by typing ./a.exe.
+The ./a.exe command is used to run the compiled program. The ./ tells Git Bash to look in the current 
+directory for the file named a.exe. The a.exe is the default name given to the compiled program by the g++ command.
